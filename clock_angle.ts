@@ -12,7 +12,7 @@ function getClockAngle(time: string): number {
       hour -= 12;
     }
 
-    console.log("hour = " + hour);
+    // console.log("hour = " + hour);
   
     // คำนวณองศาของเข็มชั่วโมง และองศาของเข็มนาที
     const hourAngle = (hour * 360 / 12) + (minute * 360 / 12 / 60); // test 17.30 = 150 + 15 = 165
