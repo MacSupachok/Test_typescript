@@ -38,11 +38,11 @@ async function removeCommonSubstring(arr: string[]): Promise<string[]> {
 async function main() {
   const input1 = ['BATHROOM', 'BATH SALTS', 'BLOODBATH'];
   const output1 = await removeCommonSubstring(input1);
-  console.log(output1); // ผลลัพธ์ ["ROOM", " SALTS", "BLOOD"]
+  console.log(output1); 
 
   const input2 = ['BEFRIEND', 'GIRLFRIEND', 'FRIENDSHIP'];
   const output2 = await removeCommonSubstring(input2);
-  console.log(output2); // ผลลัพธ์ ["BE", "GIRL", "SHIP"]
+  console.log(output2); 
 }
 
 main();
