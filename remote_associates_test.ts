@@ -1,3 +1,6 @@
+
+//ลองแล้วยังไม่ได้ครับข้อนี้
+
 async function removeCommonSubstring(arr: string[]): Promise<string[]> {
   if (arr.length === 0) {
       return [];
